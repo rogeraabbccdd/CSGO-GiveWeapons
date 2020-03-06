@@ -106,7 +106,6 @@ public Action smWeapon(int client, int args)
 	{
 		if(StrContains(g_weapons[i], sWeaponName) != -1)
 		{
-			PrintToChat(client, "%s, %s", sWeaponName, g_weapons[i]);
 			iValid = 1;
 			strcopy(sWeaponToGive, sizeof(sWeaponToGive), g_weapons[i]);
 			break;
