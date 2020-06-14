@@ -5,7 +5,7 @@
 
 #pragma newdecls required
 
-#define MAX_WEAPONS 56
+#define MAX_WEAPONS 59
 
 public Plugin myinfo = {
 	name = "Give Weapon & Item",
@@ -43,7 +43,8 @@ char g_weapons[MAX_WEAPONS][] = {
 	"weapon_healthshot",
 	"weapon_hegrenade",
 	"weapon_hkp2000",
-	"weapon_inferno",
+	"weapon_molotov",
+	"weapon_incgrenade",
 	"weapon_knife",
 	"weapon_knifegg",
 	"weapon_m249",
@@ -71,7 +72,9 @@ char g_weapons[MAX_WEAPONS][] = {
 	"weapon_tec9",
 	"weapon_ump45",
 	"weapon_usp_silencer",
-	"weapon_xm1014"
+	"weapon_xm1014",
+	"weapon_bumpmine",
+	"item_exosuit"
 };
 
 public void OnPluginStart()
